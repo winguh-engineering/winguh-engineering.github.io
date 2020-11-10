@@ -1,10 +1,38 @@
 <!DOCTYPE html>
+<html>
   <head>
-    <title>
-      Winguh
-    </title>
+    <meta charset="UTF-8" />
+    <title>Winguh</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/css/uikit.min.css" />
+    
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit-icons.min.js"></script>
   </head>
+
   <body>
-    Welcome to Winguh!
+    <div class="uk-margin-left uk-margin-top">
+      <img data-src="https://winguh-artwork.s3.us-east-2.amazonaws.com/logo.svg" width="200" alt="logo" uk-img />
+    </div>
+    <div class="uk-section uk-margin-right uk-margin-left">
+      <div class="uk-flex-middle uk-flex-center" uk-grid>
+          <div class="uk-width-1-3@m">
+              <p style="font-family: 'Rubik', sans-serif;">
+                <h1 style="color: #777777;">
+                  We're building something great!
+                </h1>
+                We believe technology should be simple and affordable, so we're hard at work making this true. Come back soon for updates!
+              </p>
+          </div>
+          <div class="uk-width-1-3@m uk-flex-first">
+            <img data-src="assets/construction.svg" alt="construction" uk-img />
+          </div>
+      </div>
+    </div>
   </body>
 </html>
